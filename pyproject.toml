@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "kdq"
+version = "0.1.0"
+description = "KDQ Trees for Change Detection"
+authors = ["Will Faithfull <will@faithfull.me>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+numpy = "^1.19.2"
+zss = "^1.2.0"
+
+[tool.poetry.dev-dependencies]
+matplotlib = "^3.3.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0a5"]
+build-backend = "poetry.core.masonry.api"
