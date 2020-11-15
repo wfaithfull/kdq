@@ -185,6 +185,7 @@ class KDQ:
     def clear(self):
         def clear_points(node):
             node.points = np.empty((0, self.k), dtype=float)
+            node.weight = 0
 
         KDQ.dft(self, clear_points)
 
